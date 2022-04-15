@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'HarryPotter';
+  src: url('fonts/harrypotter.TTF');
+}
+
+:root {
+  --fz: 16px;
+  --theme--contrast-0: #121212;
+  --theme-body-bg: #18061f;
+  --theme-body-txt: #f3f3f3;
+  --search-size-mx-h: 3rem;
+  --zIndex-header: 20;
+  --zIndex-component: 5;
+  --brand-color_1: #00ff99;
+  --brand-color_2: #00ccff;
+  --brand-color_3: #9933ff;
+  --brand-color_4: tomato;
+  --brand-color_5: #fff35c;
+  --brand-color_6: #8429de;
+  --app-bg: lightblue;
+  --app-a: gray;
+  --color-primary: #10141b;
+  --color-text: #ffffff;
+  --font-primary: 'Open Sans', sans-serif;
+  --font-secondary: 'HarryPotter', sans-serif;
+  --color-gryffindor: #740001;
+  --color-hufflepuff: #FFF4B1;
+  --color-ravenclaw: #0E1A40;
+  --color-slytherin: #1A472A;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  width: 100%;
+  overflow-y: scroll; 
+  background-color: var(--color-primary);
+  color: var(--color-text);
+}
+
